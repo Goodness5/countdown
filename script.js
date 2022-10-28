@@ -13,7 +13,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-  document.getElementById("count").innerHTML = days + ":" + hours + ":"
+  document.getElementById("count").textContent = days + ":" + hours + ":"
   + minutes + ":" + seconds;
 
   if (distance < 0) {

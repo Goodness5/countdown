@@ -3,30 +3,39 @@
     flex-direction: column;
     background-color: black;
     margin: 0;
+    /* background-image: linear-gradient(25deg, #940709f2 8%, rgba(73, 1, 1, 0.701) 90%); */
  }
  .count{
-    box-shadow: 2px 1px 2px 2px rgba(206, 206, 210, 0.212);
-    background-image: linear-gradient(25deg, #f10d11a8 8%, rgba(1, 1, 1, 0.701) 90%);
+    /* box-shadow: 2px 1px 2px 2px rgba(206, 206, 210, 0.212); */
+    /*  */
+    background: url(img.jpeg);
+    /* background-color: rgba(255, 0, 0, 0.315); */
     display: flex;
+    background-repeat: no-repeat;
     flex-direction: column;
+    background-blend-mode: luminosity;
     margin-top: 0%;
-    min-height: 100vh;
+    image-resolution: 100%;
+    /* min-height: 100vh; */
     width: 100%;
     border-radius: 1em;
     text-align: center;
     justify-content: center;
     /* align-items: left; */
-    margin-bottom: 5%;
+    margin-bottom: 9%;
     align-content: center;
+    padding: 0;
  }
  .p1{
     color: white;
     margin-top: 10%;
+    font-size: 2em;
  }
  .p2{
     color: white;
     margin-top: 10%;
     margin-bottom: 0;
+    font-size: larger;
  }
  html, body{
     margin: 0;
@@ -34,11 +43,11 @@
  .link{
     background-color: white;
     padding: 1em;
-    width: 20%;
+    width: 40%;
     margin: 0 auto;
     border-radius: 2em 2em;
     color: black;
-    margin-top: 20%;
+    margin-top: 2%;
  }
  a{
     text-decoration: none;
@@ -55,16 +64,41 @@
  }
 
  #count{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: monospace;
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 7em;
+    /* width: 80%; */
+    /* display: flex; */
+    flex-direction: row;
+    /* background-color: blue; */
+    /* text-align: center; */
+}
+.text{
+    /* background-color: red; */
+    margin-top: -9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font: caption;
+    font-size: small;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
 }
 @media screen and (min-width:800px) {
     .count{
         /* background-color: red; */
         width: 80%;
         margin: 0 auto;
+        margin-bottom: 9%;
+    }
+    .text{
+        width: 40%;
+    }
+    .link{
+        margin-bottom: 40%;
     }
 }
 .img{
