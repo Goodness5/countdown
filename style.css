@@ -1,31 +1,87 @@
+ .container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 0;
+ }
  .count{
     box-shadow: 2px 1px 2px 2px rgba(206, 206, 210, 0.212);
-    background-image: linear-gradient(25deg, #a50df188 8%, rgba(7, 151, 29, 0.335) 90%);
+    background-image: linear-gradient(25deg, #f10d11a8 8%, rgba(1, 1, 1, 0.701) 90%);
     display: flex;
     flex-direction: column;
     margin-top: 0%;
-    min-height: 40vh;
+    min-height: 100vh;
     width: 100%;
     border-radius: 1em;
     text-align: center;
     justify-content: center;
-    align-items: left;
+    /* align-items: left; */
+    margin-bottom: 5%;
     align-content: center;
  }
+ .p1{
+    color: white;
+    margin-top: 10%;
+ }
+ .p2{
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 0;
+ }
+ html, body{
+    margin: 0;
+ }
+ .link{
+    background-color: white;
+    padding: 1em;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 2em 2em;
+    color: black;
+    margin-top: 20%;
+ }
+ a{
+    text-decoration: none;
+ }
+ .event{
+    /* background-color: yellow; */
+    width: 20%;
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 5vh;
+ }
+
  #count{
     color: white;
     font-family: monospace;
     font-weight: bolder;
-    font-size: 10em;
+    font-size: 5em;
 }
 @media screen and (min-width:800px) {
     .count{
         /* background-color: red; */
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
     }
 }
 .img{
     width: 20%;
     background-color: black;
+    border-radius: 1em;
+}
+h1{
+    margin-top: 0%;
+}
+.copy{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-top: 2%;
+    position: relative;
+    /* background-color: red; */
+    color: white;
+    margin: 0;
 }
